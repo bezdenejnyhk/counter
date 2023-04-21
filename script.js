@@ -1,3 +1,7 @@
+const increaseButton = document.querySelector('.btns__btn_increase');
+const decreaseButton = document.querySelector('.btns__btn_decrease');
+const resetButton = document.querySelector('.btns__btn_reset');
+
 function createCounter() {
     const counterText = document.querySelector('.counter__text');
     let counter = 0;
